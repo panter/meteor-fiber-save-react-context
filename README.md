@@ -2,6 +2,8 @@
 
 make the react 16 context-api for SSR using fibers
 
+**This issue is solved in react 16.6.3**
+
 ## Why?
 
 `React.createContext` is the new api to create a pair of `<Provider />` and `<Consumer />`. The Provider can pass down a value to the react tree, where the corresponding Consumer can get that value. 
